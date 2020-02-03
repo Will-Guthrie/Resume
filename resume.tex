@@ -1,0 +1,131 @@
+% !TEX program = xelatex
+
+\documentclass[]{willguthrie-resume}
+	\usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \usepackage{tikz}
+\begin{document}
+ 
+\firstname{Will}
+\lastname{Guthrie}
+\phone{(647) 984-8115}
+\email{william.guthrie@mail.mcgill.ca}
+\website{linkedin.com/in/william-guthrie}
+\github{Will-Guthrie} 
+\header
+
+\hspace*{-\parindent}%
+\begin{minipage}[t][][b]{0.33\textwidth}~
+
+	\section{Education}
+	\subsection{McGill University}
+	\descript{Software Engineering}
+	\content{Sep 2015 | Montreal, QC}
+	Exp. Grad April 2020
+	\sectionsep
+
+	\section{Course Work}
+	\subsection{Undergraduate}
+	\content{Computer Science}
+	Algorithms \& Data Structures \\
+	Software Design \\
+	Programming Lang \& Paradigms \\
+	Database Systems \\
+	Software Architecture \\
+	Operating Systems \\
+	Concurrent Programming \\
+	Software Delivery \\
+	\content{Mathematics}
+	Linear Algebra \\
+	Discrete Structures \\
+	\sectionsep
+
+	\section{Skills}
+	\subsection{Programming}
+	\content{Languages}
+	Python \tb Java \tb C \tb C++ \tb SQL \tb OCaml \\
+	\content{Technologies}
+	Git \tb Docker \tb CMake \tb Maven \tb Jenkins \tb HTML \tb CSS \tb Bootstrap \\
+	\content{Libraries/Frameworks}
+	Pandas \tb NumPy \tb pyodbc \tb SQLAlchemy \tb Flask \\
+	\sectionsep
+
+	\subsection{General}
+	\content{Languages}
+	English (Native) \tb French (Fluent) \tb Japanese (Basic) \\
+	\content{Design}	
+	Adobe Desgin Suite \tb AutoCAD
+	\sectionsep
+
+	\section{Interests}
+	\content{Hobbies}
+	Food \tb D\&D \tb Motorcycling \tb MTG \tb Travel \\
+	\content{Fitness}
+	Skiing \tb Swimming \tb Weight Lifting \tb Running \tb Rock Climbing \\
+	\content{Creative}
+	Cooking \tb Baking \tb Clothing \tb Ceramics
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+
+	\section{Experience}
+
+	\project{Tutor}{McGill CSUS Helpdesk}{Jan 2020 - Present}
+	\vspace{\topsep} % Hacky fix for awkward extra vertical space
+	\begin{tightemize}
+		\item Tutored other students in Computer Science on numerous subjects.
+		\item Clearly communicated technical concepts to an audience having difficulty with the subject. 
+		\item Winner of TEAM award.
+	\end{tightemize}
+
+	\project{Software Engineering Intern}{Hillsdale Investment Management}{May 2019 - Aug 2019}
+	\begin{tightemize}
+		\item Architected \& built Python applications saving over 30 days/year of Portfolio Manager time.
+		\item Sped up a preexisting data analysis process by over 10 times.
+		\item Helped lead company transition to modern version control standards using GitLab.
+	\end{tightemize}
+
+	\project{President}{Reboot McGill}{Mar 2019 - Present}
+	\begin{tightemize}
+		\item Led an e-waste recycling and refurbishing non-profit responsible for shipping over 100 orders per year.
+		\item Created standardized treatment procedures for a variety of common hardware and software problems.
+		\item Ran workshops for members on a variety of different technologies (Docker, Git, etc.) 
+	\end{tightemize}
+
+	\project{Financial Officer}{Computer Taskforce}{May 2017 - Present}
+	\begin{tightemize}
+		\item Managed finances of a student technology service with revenues over 150k/year.
+		\item Co-ordinated with the rest of the exec. team to provide printing services, laptop rentals, in-house web hosting, and more.
+		\item Services used by over 3000 McGill students per semester.
+	\end{tightemize}
+
+	
+	\sectionsep
+	\section{Projects}
+
+	\project{SFS}{Simple File System}{}
+	\begin{tightemize}
+		\item Created a single directory file system in C.
+		\item Used bitwise logic to compress the size of the inode status table and free block bitmap by a factor of 32.
+		\item Designed to be mountable using a disk emulator and FUSE.
+	\end{tightemize}
+
+	\project{Roll for Initiative}{DnD Encounter Calculator}{}
+	\begin{tightemize}
+		\item Built basic simulator to determine likelihood of winning an encounter in the popular tabletop rpg, Dungeons and Dragons.
+		\item Used Monte Carlo simulation of dice rolling to determine encounter outcomes.
+		\item Limited to strictly direct damage dealing actions.
+	\end{tightemize}
+
+	\project{Patacat}{Simple Calming Game}{}
+	\begin{tightemize}
+		\item Frontend Javascript project created for McHacks 2019.
+		\item Winner of the hackathon's Best Designed award.
+	\end{tightemize}
+
+
+\end{minipage}
+\end{document}
